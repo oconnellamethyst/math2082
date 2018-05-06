@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 # Differential equation
 # diff = y'= y/x (or say x+y)
 def diff(x,y):
-    return y = x**3 - x*4
+    return x**3 - x*4 - y
 
 x = np.linspace(-10,10,50)
 y = np.linspace(-10,10,50)
